@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A7814E4EEC70DE7D6C41B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D562B3E40B6C9EC53F38F07 /* Assets.xcassets */; };
+		0BD94EB3532615E93E4C8EB1 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA051B23BC5D06921D1FA4C /* SetupView.swift */; };
+		0EE865350191C6F955CEC00D /* GrowthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EBB9780346399A3248F17 /* GrowthView.swift */; };
+		1671781BE73473C3B85851CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732578CE287DCDFD1E84249 /* HomeView.swift */; };
+		46E7E674C018D26E3567655A /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4EB783D5A155EB255C1191 /* ReportView.swift */; };
+		74374ACE28B280C64A2ECE08 /* BowelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABE59E6FAFEDD062A4FC4D4 /* BowelView.swift */; };
+		82D29BA384ED265C5DFE8484 /* BabyTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F7FC516C85C1E6A2CBD90E /* BabyTrackApp.swift */; };
+		9098872926ACAA1EC583D0F4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80317E183B195C527C80A344 /* Helpers.swift */; };
+		9EA8B0F93E294AEB2F5C4215 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8E261BD5A98114E99CCC8 /* Models.swift */; };
+		ACF3A126579854B31CBF8178 /* FeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5EE3E8931F000EFFE150C /* FeedingView.swift */; };
+		BA2FFD8F794C1D4920FBDCE8 /* SupplementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1708B27F36A17A7A84E0A /* SupplementView.swift */; };
+		C3D6ED8029A309D05003F007 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA47FF37F61BFA24F7627A /* SettingsView.swift */; };
+		D7B2038A415093123F6AC691 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0DC2CCD5AE011A8C9257C /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27F7FC516C85C1E6A2CBD90E /* BabyTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTrackApp.swift; sourceTree = "<group>"; };
+		4AC1708B27F36A17A7A84E0A /* SupplementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementView.swift; sourceTree = "<group>"; };
+		506EBB9780346399A3248F17 /* GrowthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthView.swift; sourceTree = "<group>"; };
+		5A4EB783D5A155EB255C1191 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		7BCCADA3021C07D12E775CB5 /* BabyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80317E183B195C527C80A344 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8732578CE287DCDFD1E84249 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D562B3E40B6C9EC53F38F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90FA47FF37F61BFA24F7627A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		99A8E261BD5A98114E99CCC8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A5D0DC2CCD5AE011A8C9257C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A8E5EE3E8931F000EFFE150C /* FeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingView.swift; sourceTree = "<group>"; };
+		BABE59E6FAFEDD062A4FC4D4 /* BowelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowelView.swift; sourceTree = "<group>"; };
+		BBA051B23BC5D06921D1FA4C /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		BCB51839EEA339E71371A29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095FEE2E633C50D24407F2D6 /* BabyTrack */ = {
+			isa = PBXGroup;
+			children = (
+				27F7FC516C85C1E6A2CBD90E /* BabyTrackApp.swift */,
+				99A8E261BD5A98114E99CCC8 /* Models.swift */,
+				80317E183B195C527C80A344 /* Helpers.swift */,
+				A5D0DC2CCD5AE011A8C9257C /* RootView.swift */,
+				BBA051B23BC5D06921D1FA4C /* SetupView.swift */,
+				8732578CE287DCDFD1E84249 /* HomeView.swift */,
+				A8E5EE3E8931F000EFFE150C /* FeedingView.swift */,
+				BABE59E6FAFEDD062A4FC4D4 /* BowelView.swift */,
+				4AC1708B27F36A17A7A84E0A /* SupplementView.swift */,
+				506EBB9780346399A3248F17 /* GrowthView.swift */,
+				5A4EB783D5A155EB255C1191 /* ReportView.swift */,
+				90FA47FF37F61BFA24F7627A /* SettingsView.swift */,
+				8D562B3E40B6C9EC53F38F07 /* Assets.xcassets */,
+				BCB51839EEA339E71371A29B /* Info.plist */,
+			);
+			path = BabyTrack;
+			sourceTree = "<group>";
+		};
+		5928955287B8089ED2177128 = {
+			isa = PBXGroup;
+			children = (
+				095FEE2E633C50D24407F2D6 /* BabyTrack */,
+				BF7A2D27A78D590BDEF15AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7A2D27A78D590BDEF15AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCADA3021C07D12E775CB5 /* BabyTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6772EC0E5D0CA05E04DDDB49 /* BabyTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32885C7FE4702D6377A1C1A9 /* Build configuration list for PBXNativeTarget "BabyTrack" */;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+				29B2D46AA747A59804D46E1F /* Frameworks */,
+				66F8606E9F0A136E2228EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyTrack;
+			productName = BabyTrack;
+			productReference = 7BCCADA3021C07D12E775CB5 /* BabyTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5299AC4324DC18342A8CCD96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6772EC0E5D0CA05E04DDDB49 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 561DBEB382F216D5C4698F01 /* Build configuration list for PBXProject "BabyTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 5928955287B8089ED2177128;
+			productRefGroup = BF7A2D27A78D590BDEF15AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6772EC0E5D0CA05E04DDDB49 /* BabyTrack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8606E9F0A136E2228EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7814E4EEC70DE7D6C41B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D29BA384ED265C5DFE8484 /* BabyTrackApp.swift in Sources */,
+				9EA8B0F93E294AEB2F5C4215 /* Models.swift in Sources */,
+				9098872926ACAA1EC583D0F4 /* Helpers.swift in Sources */,
+				D7B2038A415093123F6AC691 /* RootView.swift in Sources */,
+				0BD94EB3532615E93E4C8EB1 /* SetupView.swift in Sources */,
+				1671781BE73473C3B85851CF /* HomeView.swift in Sources */,
+				ACF3A126579854B31CBF8178 /* FeedingView.swift in Sources */,
+				74374ACE28B280C64A2ECE08 /* BowelView.swift in Sources */,
+				BA2FFD8F794C1D4920FBDCE8 /* SupplementView.swift in Sources */,
+				0EE865350191C6F955CEC00D /* GrowthView.swift in Sources */,
+				46E7E674C018D26E3567655A /* ReportView.swift in Sources */,
+				C3D6ED8029A309D05003F007 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17234DA728CB8FFFA593E13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZG6LP5R896;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BabyTrack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LE_SWIFT_VERSION = 5.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytrack.zhuziyang.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339F2120A275E8028CC42767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZG6LP5R896;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BabyTrack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LE_SWIFT_VERSION = 5.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytrack.zhuziyang.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BF40F069D95C38DE60AA602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC86DC4F4B4C60C3EC031655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32885C7FE4702D6377A1C1A9 /* Build configuration list for PBXNativeTarget "BabyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339F2120A275E8028CC42767 /* Debug */,
+				17234DA728CB8FFFA593E13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561DBEB382F216D5C4698F01 /* Build configuration list for PBXProject "BabyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC86DC4F4B4C60C3EC031655 /* Debug */,
+				7BF40F069D95C38DE60AA602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5299AC4324DC18342A8CCD96 /* Project object */;
+}
