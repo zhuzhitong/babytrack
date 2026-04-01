@@ -49,25 +49,52 @@ struct EditProfileView: View {
     let profile: BabyProfile
 
     @State private var name: String
+    @State private var birthDate: Date
     @State private var allergyNotes: String
     @State private var doctorName: String
 
     init(profile: BabyProfile) {
         self.profile = profile
         _name = State(initialValue: profile.name)
+        _birthDate = State(initialValue: profile.birthDate)
         _allergyNotes = State(initialValue: profile.allergyNotes)
         _doctorName = State(initialValue: profile.doctorName)
+    }
+
+    /// 根据所选出生日期实时计算月龄预览
+    private var agePreview: String {
+        let c = Calendar.current.dateComponents([.month, .day], from: birthDate, to: Date())
+        let m = c.month ?? 0, d = c.day ?? 0
+        return m > 0 ? "\(m)个月\(d)天" : "\(d)天"
     }
 
     var body: some View {
         NavigationStack {
             Form {
-                Section { TextField("姓名", text: $name) }
+                Section("基本信息") {
+                    TextField("姓名", text: $name)
+                }
+
+                Section("出生日期 / 月龄") {
+                    DatePicker("出生日期", selection: $birthDate, in: ...Date(),
+                               displayedComponents: .date)
+                    HStack {
+                        Text("当前月龄").foregroundColor(.secondary)
+                        Spacer()
+                        Text(agePreview)
+                            .foregroundColor(.btPink)
+                            .fontWeight(.medium)
+                    }
+                }
+
                 Section("忌口/过敏食物") {
                     TextField("如：牛奶蛋白、花生", text: $allergyNotes, axis: .vertical)
                         .lineLimit(3, reservesSpace: true)
                 }
-                Section { TextField("主治医生", text: $doctorName) }
+
+                Section("主治医生") {
+                    TextField("医生姓名", text: $doctorName)
+                }
             }
             .navigationTitle("编辑信息")
             .toolbar {
@@ -75,6 +102,7 @@ struct EditProfileView: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("保存") {
                         profile.name = name
+                        profile.birthDate = birthDate
                         profile.allergyNotes = allergyNotes
                         profile.doctorName = doctorName
                         dismiss()
